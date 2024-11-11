@@ -4,7 +4,7 @@
     background-color: #1f2937;
     display: flex;
     align-items: center;
-    padding-right: 100px;
+    padding-right: 500px;
 
 }
 
@@ -12,7 +12,7 @@
     
     font-size: 24px;
     color: #F9FAF8;
-    padding-left: 100px;
+    padding-left: 500px;
 }
 
 .links{
@@ -25,3 +25,65 @@
     
     
 }
+
+.container{
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px ;
+    
+    
+}
+
+
+
+.awesome{
+    
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    padding-left: 500px;
+    padding-top: 100px;
+    margin-right: 200px;
+    
+    
+}
+
+.placeholdertext{
+
+    position: relative;
+    z-index: 1;
+    color: #e5e7eb;
+    
+}
+
+.placeholdertext::before{
+  
+    content: "";
+    position: absolute;
+    margin-right: 500px;
+    background-color: #e5e7eb; opacity: 0.5;
+    z-index: -1; 
+    font-size: 18px;
+    margin-left: auto;
+    margin-top: 70px;
+    
+}
+
+
+
+.subtext{
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
+
+ .signup1{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    
+ }
