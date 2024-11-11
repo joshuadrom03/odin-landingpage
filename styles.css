@@ -1,0 +1,27 @@
+
+
+.header{
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+
+}
+
+.logo{
+    
+    font-size: 24px;
+    color: #F9FAF8;
+    padding-left: 100px;
+}
+
+.links{
+    display: flex;
+    gap: 40px;
+    font-size: 18px;
+    color: #e5e7eb;
+    list-style-type: none;
+    margin-left: auto;
+    
+    
+}
